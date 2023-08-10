@@ -1,0 +1,90 @@
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+#wrapper {
+  width: 550px;
+  height: 70%;
+  margin: 30px;
+  background-color: grey;
+  border: 1px solid #333;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.6);
+}
+#app-container {
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  padding-bottom: 0px;
+}
+h1 {
+  padding-left: 140px;
+  color: #c5376d;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.pad-bank {
+  box-sizing: border-box;
+  float: left;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  width: 280px;
+  height: 280px;
+  margin-top: 50px;
+  padding-left: 10px;
+}
+.drum-pad {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 85px;
+  height: 80px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 5rem;
+  cursor: pointer;
+  box-shadow: 3px 4px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, 0.35);
+}
+
+.drum-pad:active {
+  box-shadow: 0 0px 0 #c5376d, 0 12px 10px rgba(0, 0, 0, 0.6);
+}
+
+#control {
+  float: right;
+}
+
+#display {
+  float: right;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  margin-top: 130px;
+  margin-right: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 10px;
+  background-color: #d3d3d3;
+  border: 1px solid #c5376d;
+  border-radius: 6px;
+}
+
+#volume {
+  margin-top: 50px;
+  margin-right: 70px;
+  float: right;
+}
